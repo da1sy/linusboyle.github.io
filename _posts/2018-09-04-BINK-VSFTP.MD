@@ -23,6 +23,14 @@ layout: post
 ### 3.主要配置参数说明
 - **anonymous_enable=YES**
 默认是允许匿名用户登录，禁止改为NO
+- **anon_upload_enable=yes**
+允许匿名用户上传文件
+- **anon_mkdir_write_enable=yes**
+允许匿名用户创建修改目录  
+- **anon_other_write_enable=yes**
+允许删除
+- **anon_root=/var/ftp**
+设置匿名用户登录主目录  默认为“/var/ftp”
 - **#chroot_list_enable=YES**
 不允许FTP用户离开自己的主目录，默认是被注释的
 - **#chroot_list_file=/etc/vsftpd/chroot_List**
