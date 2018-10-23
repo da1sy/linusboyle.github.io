@@ -35,6 +35,8 @@ layout: post
 不允许FTP用户离开自己的主目录，默认是被注释的
 - **#chroot_list_file=/etc/vsftpd/chroot_List**
 如果开启了 **chroot_list_enable=YES** 也一定要开启。是锁定登录用户只能在主目录的位置
+- **local_root=/var/ftp**
+本地用户登陆的主目录
 - **local_enable=YES**
 允许本地用户访问，默认是yes
 - **wirte_enable=YES**
@@ -53,6 +55,7 @@ layout: post
 ftp的登录欢迎语
 - **#chroot_local_user=YES**
 禁止本地用户登出自己的FTP主目录
+
 - **pam_service_named=vsftpd**
 设定pam服务下vsftpd的验证配置文件
 - **userlist_enable=YES**
