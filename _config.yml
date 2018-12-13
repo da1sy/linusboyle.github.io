@@ -4,7 +4,7 @@ markdown: rdiscount #kramdown
 title: DA1SY
 subtitle: 偏有宸机
 welcome_message: 在校高中生
-description: 愿勇猛精进，志愿无倦
+description: 愿勇猛精进,志愿无倦。
 #description: 狭兴生疏,酒徒萧索,不似少年时。(回头万里，故人长绝，满座衣冠胜雪。|不恨古人吾不见，恨古人不见吾狂耳。|天下唯庸人无谤无誉。)
 #description: 
 creator: <a href="https://github.com/da1sy">@DA1SY</a>
