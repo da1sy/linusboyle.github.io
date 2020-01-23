@@ -1,9 +1,9 @@
----
+
 title: 渗透利器-Teensy（低配版BadUSB）
 date: 2018-09-25 
 tags: kali
 layut: post
----
+
 
 ### 准备工作
 * 一块 **Teensy2.0++** 的板子(淘宝一搜就有)
